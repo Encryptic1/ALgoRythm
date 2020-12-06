@@ -2,8 +2,10 @@
 Music Spectral Analyzer &amp; ANN genre classifier (full sequence)
 
 Goal:
-  1. to be able to input any song for full spectral analysis
-  2. use the features extracted to train an ANN classifier for genres 
+  1. to be able to input any song for full spectral analysis (complete)
+  2. use the features extracted to train an ANN classifier for genres (complete)
+  3. Train model on mass data.
+    - Have yet to complete this you can test new songs on the model i have saved in the saved_model folder but it will not work for much as         the training set is small and relates only to the genres i created. I suggest you build a larger training set and your own genres             under./drive/genres/ to produce a more robust model
   
 Install & Config:
 ---------------------------------------------------------------------------------------------------------------------
