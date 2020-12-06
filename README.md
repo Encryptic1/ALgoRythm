@@ -9,27 +9,27 @@ Goal:
   
 Install & Config:
 ---------------------------------------------------------------------------------------------------------------------
-  1. download or clone
+  1. Download or Clone
   ```
   git clone https://github.com/Encryptic1/ALgoRythm.git
   ```
-  2. Install requirements
+  2. Install Requirements
   ```
   cd {main dir}
   pip install requirements.txt
   ```
-  3. get audio files (suggest spotdl)
+  3. Get audio files (suggest spotdl)
   ```
   pip install spotdl
   ```
-  4. create your genres in the ./drive/genres/ folder. these folder names need to reflect in algorythm.py line 20. 
+  4. Create your genres in the ./drive/genres/ folder. these folder names need to reflect in algorythm.py line 20. 
   These wil be the defining features used to train the network. be careful you select the genre accordingly.
   ```
   genres = ['bass' ,'chillstep' ,'country', 'dubstep','electrofunk','funk','rap','tronhop']
   ```
-  5. place any .mp3 files for predictions in the test folder ./test/
-  6. place an .mp3 file for the analizer in ./analize/
-  7. place your training  .mp3's from step 3 into their respective genre folders ./drive/genres/{x}
+  5. Place any .mp3 files for predictions in the test folder ./test/
+  6. Place an .mp3 file for the analizer in ./analize/
+  7. Place your training  .mp3's from step 3 into their respective genre folders ./drive/genres/{x}
 
 Usage:
 ---------------------------------------------------------------------------------------------------------------------
@@ -49,4 +49,4 @@ You'll see some lines in algorythm.py like:
 ```
 filename.replace(x)
 ```
-where x is ',-$ and some other symbols. this is where i would check first in the ./drive/genres/{*}.mp3 filenames
+Where x is ',-$ and some other symbols. this is where i would check first in the ./drive/genres/{*}.mp3 filenames
