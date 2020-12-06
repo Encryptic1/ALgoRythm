@@ -1,0 +1,3 @@
+this is the genre folder
+build out subfolders for each genre you want to classify
+these need to be the same names as the list definition on line 20 of algorythm.py
